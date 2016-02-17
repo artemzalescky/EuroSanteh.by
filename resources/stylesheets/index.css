@@ -1,0 +1,33 @@
+.template{			/* один кусок*/
+    min-height:150px;
+    width:270px;
+    background-color:#F8F8F8;
+    float:left;
+    margin:10px 10px;
+    padding:20px;
+    padding-left:10px;
+
+    transition:background-color 1s;
+    -webkit-transition:background-color 0.8s; /* Safari Chrome */
+}
+
+.template img{
+    margin:auto;
+    height:170px;
+    width:280px;
+}
+.template:hover
+{
+    background-color:#A3EEFF;
+}
+.font{
+    font: bold 15px Arial, Helvetica;
+    color:#999999;
+    margin-top:5px;
+    margin-bottom:5px;
+}
+.template li a{
+    color:#072328;
+    font: bold 14px Arial, Helvetica;
+    text-decoration:none;
+}
